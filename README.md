@@ -12,4 +12,4 @@ In this application apache spark sql is used processing the log file.
 ## Execution Steps:
   1. mvn clean install
   2. go to target directory
-  3. java -jar log-file-processor-0.0.1-SNAPSHOT-jar-with-dependencies.jar <path to log file>
+  3. java -jar log-file-processor-0.0.1-SNAPSHOT-jar-with-dependencies.jar LOG_FILE_PATH
