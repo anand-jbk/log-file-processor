@@ -2,7 +2,7 @@
 In this application apache spark sql is used processing the log file.
 
 ## Prerequisite:
-  HSQLDB server must be running. Properties configure for server is as shown below. These properties can be changed in main/resource/application.properties.
+  HSQLDB server is required for persisting the events. Properties configure for server are as shown below. If required, these properties can be changed in main/resource/application.properties.
   
   * DB_DRIVER_CLASS=org.hsqldb.jdbcDriver
   * DB_CONNECTION_URL=jdbc:hsqldb:hsql://localhost/testdb
